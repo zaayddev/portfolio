@@ -2,9 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import zaidblogImg from "@/public/zaidblog.png";
+import transcendenceImg from "@/public/transcendence.jpg";
+import inceptionImg from "@/public/inception.jpeg";
+import ircImg from "@/public/irc.png";
 
 export const links = [
   {
@@ -35,52 +36,56 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+    title: "Baccalaureate",
+    location: "Fes, Morocco",
+    description: "International Baccalaureate Degree In Physical Science.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: " 2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Computer Science",
+    location: "Khouribga, Morocco",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm currently a software engineering student at 1337 (UM6P coding school) associated with 42 network.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: " 2021 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "ZaidBlog",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This project aims to create a simple and efficient blog website using modern web technologies",
+    tags: ["Next.js", "shadcnUi", "Sanity", "Tailwind", "TypeScript"],
+    imageUrl: zaidblogImg,
   },
   {
-    title: "rmtDev",
+    title: "ft_transcendence",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "A fullstack web app where you can play pong with players among other things such as JWT, 2fa authentification, chat...",
+    tags: ["Next.js", "Prisma", "Nest.js", "PostgreSQL", "TypeScript"],
+    imageUrl: transcendenceImg,
   },
   {
-    title: "Word Analytics",
+    title: "Inception",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "This project consists in having you set up a small infrastructure composed of different services under specific rules.",
+    tags: ["Docker", "WordPress", "NGINX", "Docker-compose", "MariaDB"],
+    imageUrl: inceptionImg,
+  },
+  {
+    title: "FT_IRC",
+    description:
+      "Simple IRC Server based on the RFC (mainly 2812) written in (C++ 98)",
+    tags: [
+      "C++",
+      "Python",
+      "OOP",
+      "Socket Programming",
+      "Network Administration",
+    ],
+    imageUrl: ircImg,
   },
 ] as const;
 
@@ -95,13 +100,12 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
+  "Java",
+  "c++",
+  "Docker",
   "PostgreSQL",
-  "Python",
-  "Django",
+  "Unix",
   "Framer Motion",
+  "Figma",
+  "Jira",
 ] as const;

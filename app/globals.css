@@ -13,3 +13,16 @@ html.dark {
 .borderBlack {
   @apply border border-black/10;
 }
+
+.custom-date-class {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+@media (max-width: 576px) {
+  /* For small devices (up to 576px width) */
+  .custom-date-class {
+      margin-left: 0;
+      margin-right: 0;
+  }
+}
