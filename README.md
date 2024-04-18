@@ -10,4 +10,4 @@ This project is my personal portfolio website built using Next.js 14.
 - **Styling**: [Tailwind CSS](https://tailwindcss.com)
 ## 📭 Demo
 
-still in development
+https://zaayddev.vercel.app/
