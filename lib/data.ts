@@ -57,7 +57,7 @@ export const projectsData = [
   {
     title: "Swifty Campanion",
     description:
-      "This project aims to Develop a mobile app utilizing the 42 API. Its primary function will be to display student information.",
+      "This project aims to Develop a mobile app utilizing the 42 API. Its primary function will be to display students information.",
     tags: ["React Native", "Expo", "TypeScript", "StyleSheet"],
     imageUrl: swiftyImg,
   },
