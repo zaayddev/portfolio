@@ -27,7 +27,7 @@ export default function About() {
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem ✨. My core
-        stack is <span className="font-medium">React especially Next.js</span>.
+        stack is <span className="font-medium">React Native, React especially Next.js</span>.
         I am always looking to learn new technologies. I am currently looking
         for an <span className="font-medium">internship position</span> as a
         frontend developer. <span className="italic">When I'm not coding</span>,

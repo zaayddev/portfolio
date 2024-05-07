@@ -6,6 +6,7 @@ import zaidblogImg from "@/public/zaidblog.png";
 import transcendenceImg from "@/public/transcendence.jpg";
 import inceptionImg from "@/public/inception.jpeg";
 import ircImg from "@/public/irc.png";
+import swiftyImg from "@/public/swiftyApp.png";
 
 export const links = [
   {
@@ -53,6 +54,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "Swifty Campanion",
+    description:
+      "This project aims to Develop a mobile app utilizing the 42 API. Its primary function will be to display student information.",
+    tags: ["React Native", "Expo", "TypeScript", "StyleSheet"],
+    imageUrl: swiftyImg,
+  },
   {
     title: "ZaidBlog",
     description:
