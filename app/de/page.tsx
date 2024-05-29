@@ -1,10 +1,10 @@
-import About from "@/components/en/about.en";
-import Contact from "@/components/en/contact.en";
-import Experience from "@/components/en/experience.en";
-import Intro from "@/components/en/intro.en";
-import Projects from "@/components/en/projects.en";
+import About from "@/components/de/about.de";
+import Contact from "@/components/de/contact.de";
+import Experience from "@/components/de/experience.de";
+import Intro from "@/components/de/intro.de";
+import Projects from "@/components/de/projects.de";
 import SectionDivider from "@/components/section-divider";
-import Skills from "@/components/en/skills.en";
+import Skills from "@/components/de/skills.de";
 
 export default function Home() {
   return (

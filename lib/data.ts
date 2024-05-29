@@ -10,32 +10,38 @@ import swiftyImg from "@/public/swiftyApp.png";
 
 export const links = [
   {
-    name: "Home",
+    enName: "Home",
+    deName: "Startseite",
     hash: "#home",
   },
   {
-    name: "About",
+    enName: "About",
+    deName: "Über mich",
     hash: "#about",
   },
   {
-    name: "Projects",
+    enName: "Projects",
+    deName: "Projekte",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    enName: "Skills",
+    deName: "Fähigkeiten",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    enName: "Experience",
+    deName: "Erfahrung",
     hash: "#experience",
   },
   {
-    name: "Contact",
+    enName: "Contact",
+    deName: "Kontakt",
     hash: "#contact",
   },
 ] as const;
 
-export const experiencesData = [
+export const experiencesDataEn = [
   {
     title: "Baccalaureate",
     location: "Fes, Morocco",
@@ -53,7 +59,25 @@ export const experiencesData = [
   },
 ] as const;
 
-export const projectsData = [
+export const experiencesDataDe = [
+  {
+    title: "Abitur",
+    location: "Fes, Marokko",
+    description: "Internationaler Abiturabschluss in Physik.",
+    icon: React.createElement(LuGraduationCap),
+    date: " 2021",
+  },
+  {
+    title: "Computer Science",
+    location: "Khouribga, Marokko",
+    description:
+      "Ich bin derzeit Student der Softwaretechnik an der 1337 (UM6P Coding School), die mit 42 network verbunden ist.",
+    icon: React.createElement(FaReact),
+    date: " 2021 - present",
+  },
+] as const;
+
+export const projectsDataEn = [
   {
     title: "Swifty Campanion",
     description:
@@ -97,12 +121,57 @@ export const projectsData = [
   },
 ] as const;
 
+export const projectsDataDe = [
+  {
+    title: "Swifty Campanion",
+    description:
+      "ist ein Projekt, das eine mobile App entwickeln soll, die die 42 API nutzt. Ihre Hauptfunktion wird darin bestehen, Informationen über Studierende anzuzeigen.",
+    tags: ["React Native", "Expo", "TypeScript", "StyleSheet"],
+    imageUrl: swiftyImg,
+  },
+  {
+    title: "ZaidBlog",
+    description:
+      "hat zum Ziel, eine einfache und effiziente Blog-Website unter Verwendung moderner Webtechnologien zu erstellen.",
+    tags: ["Next.js", "shadcnUi", "Sanity", "Tailwind", "TypeScript"],
+    imageUrl: zaidblogImg,
+  },
+  {
+    title: "ft_transcendence",
+    description:
+      " ist eine Full-Stack-Web-App, mit der Sie unter anderem Pong mit anderen Spielern spielen können, sowie Funktionen wie JWT, 2FA-Authentifizierung und Chat...",
+    tags: ["Next.js", "Prisma", "Nest.js", "PostgreSQL", "TypeScript"],
+    imageUrl: transcendenceImg,
+  },
+  {
+    title: "Inception",
+    description:
+      "besteht darin, eine kleine Infrastruktur mit verschiedenen Diensten unter spezifischen Regeln einzurichten.",
+    tags: ["Docker", "WordPress", "NGINX", "Docker-compose", "MariaDB"],
+    imageUrl: inceptionImg,
+  },
+  {
+    title: "FT_IRC",
+    description:
+      "ist ein einfacher IRC-Server, der auf dem RFC (hauptsächlich 2812) basiert und in C++ 98 geschrieben ist.",
+    tags: [
+      "C++",
+      "Python",
+      "OOP",
+      "Socket Programming",
+      "Network Administration",
+    ],
+    imageUrl: ircImg,
+  },
+] as const;
+
 export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
   "React",
+  "React Native",
   "Next.js",
   "Node.js",
   "Git",
@@ -116,4 +185,5 @@ export const skillsData = [
   "Framer Motion",
   "Figma",
   "Jira",
+  "Notion"
 ] as const;
