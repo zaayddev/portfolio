@@ -10,32 +10,32 @@ import swiftyImg from "@/public/swiftyApp.png";
 
 export const links = [
   {
-    enName: "Home",
+    name: "Home",
     deName: "Startseite",
     hash: "#home",
   },
   {
-    enName: "About",
+    name: "About",
     deName: "Über mich",
     hash: "#about",
   },
   {
-    enName: "Projects",
+    name: "Projects",
     deName: "Projekte",
     hash: "#projects",
   },
   {
-    enName: "Skills",
+    name: "Skills",
     deName: "Fähigkeiten",
     hash: "#skills",
   },
   {
-    enName: "Experience",
+    name: "Experience",
     deName: "Erfahrung",
     hash: "#experience",
   },
   {
-    enName: "Contact",
+    name: "Contact",
     deName: "Kontakt",
     hash: "#contact",
   },
