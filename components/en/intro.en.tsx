@@ -32,13 +32,14 @@ export default function Intro() {
             }}
           >
             <Image
-              src="https://cdn.intra.42.fr/users/74290132d7c7758dada0f7573b99ed29/zchbani.jpg"
-              alt="Ricardo portrait"
+              src="/Coder.png"
+              alt="developer male"
               width="192"
               height="192"
               quality="95"
               priority={true}
-              className="h-44 w-44 rounded-full object-cover border-[0.35rem] border-white shadow-2xl"
+
+              className="h-44 w-44 rounded-full object-cover border-[0.35rem] shadow-2xl"
             />
           </motion.div>
 

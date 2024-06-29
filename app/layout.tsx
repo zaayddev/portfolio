@@ -8,6 +8,7 @@ import Footer from "@/components/footer";
 import ThemeContextProvider from "@/context/theme-context";
 import ThemeSwitch from "@/components/theme-switch";
 import LanguageSwitch from "@/components/language-switch";
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -32,6 +33,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <Analytics /> {/* Vercel Analytics */}
             <Footer />
 
             <Toaster position="top-right" />
