@@ -7,6 +7,7 @@ import transcendenceImg from "@/public/transcendence.jpg";
 import inceptionImg from "@/public/inception.jpeg";
 import ircImg from "@/public/irc.png";
 import swiftyImg from "@/public/swiftyApp.png";
+import chbanioptique from "@/public/3.png";
 
 export const links = [
   {
@@ -79,6 +80,13 @@ export const experiencesDataDe = [
 
 export const projectsDataEn = [
   {
+    title: "Chbani Optique",
+    description:
+      "Developed a fully responsive eCommerce website for an optician shop with a sleek, modern design and seamless shopping functionality.",
+    tags: ["Freelance", "Next.js", "shadcnUi", "Tailwind"],
+    imageUrl: chbanioptique,
+  },
+  {
     title: "Swifty Campanion",
     description:
       "This project aims to Develop a mobile app utilizing the 42 API. Its primary function will be to display students information.",
@@ -122,6 +130,13 @@ export const projectsDataEn = [
 ] as const;
 
 export const projectsDataDe = [
+  {
+    title: "Chbani Optique",
+    description:
+      "Entwickelte eine voll responsive E-Commerce-Website für ein Optikergeschäft mit modernem Design und nahtloser Einkaufsfunktionalität.",
+    tags: ["Freelance", "Next.js", "shadcnUi", "Tailwind"],
+    imageUrl: chbanioptique,
+  },
   {
     title: "Swifty Campanion",
     description:
@@ -185,5 +200,5 @@ export const skillsData = [
   "Framer Motion",
   "Figma",
   "Jira",
-  "Notion"
+  "Notion",
 ] as const;
